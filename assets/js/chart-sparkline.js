@@ -16,37 +16,37 @@ jQuery(function($) {
             var sidebargraph1=[7, 6, 4, 7, 5, 3, 5, 7, 3, 4];
             var sidebargraph2=[4, 7, 5, 5, 7, 3, 5, 7, 4, 2];
             $('.inlinesparkline').sparkline(myvalues, {
-                type: 'line', width: '100%', height: '200', lineWidth: 2, lineColor: '#e8962e', fillColor: 'rgba(242,163,20,0.5)', highlightSpotColor: '#f46e0f', highlightLineColor: '#673AB7', spotRadius: 4,
+                type: 'line', width: '100%', height: '200', lineWidth: 2, lineColor: '#29b6f6', fillColor: 'rgba(242,163,20,0.5)', highlightSpotColor: '#f46e0f', highlightLineColor: '#673AB7', spotRadius: 4,
             }
             );
             var myvalues=[10, 5, 2, 8, 3, 8, 5, 7, 4, 4, 7, 4, 5];
             $('.inlinesparkline2').sparkline(myvalues, {
-                type: 'line', width: '100%', height: '200', lineWidth: 3, lineColor: '#e8962e', fillColor: 'rgba(242,163,20,0)', highlightSpotColor: '', highlightLineColor: '', spotRadius: 2,
+                type: 'line', width: '100%', height: '200', lineWidth: 3, lineColor: '#29b6f6', fillColor: 'rgba(242,163,20,0)', highlightSpotColor: '', highlightLineColor: '', spotRadius: 2,
             }
             );
             var myvalues=[1, 2, 13, 4, 5, 16, 7, 8, 19, 10, 11];
             $('.inlinesparkline3').sparkline(myvalues, {
-                type: 'line', width: '100%', height: '200', lineWidth: 3, lineColor: '#e8962e', fillColor: 'rgba(242,163,20,1)', highlightSpotColor: '', highlightLineColor: '', spotRadius: 2,
+                type: 'line', width: '100%', height: '200', lineWidth: 3, lineColor: '#29b6f6', fillColor: 'rgba(242,163,20,1)', highlightSpotColor: '', highlightLineColor: '', spotRadius: 2,
             }
             );
             /* The second argument gives options such as specifying you want a bar chart */
             $('.dynamicbar').sparkline(myvalues, {
-                type: 'bar', barColor: '#e8962e', height: '200', barWidth: '25', barSpacing: 4
+                type: 'bar', barColor: '#29b6f6', height: '200', barWidth: '25', barSpacing: 4
             }
             );
             // Bar charts using inline values
             $('.negativebar').sparkline([8, 4, 3, 0, -2, -6, -3, 3, -2, 4, 3, 0, -2, -6, -3, 3, -2, 4, 6, -4, 4], {
-                type: 'bar', barColor: '#e8962e', height: '200', barWidth: '18', barSpacing: 2, zeroAxis: true, negBarColor: '#f46e0f', zeroColor: '#673AB7'
+                type: 'bar', barColor: '#29b6f6', height: '200', barWidth: '18', barSpacing: 2, zeroAxis: true, negBarColor: '#f46e0f', zeroColor: '#673AB7'
             }
             );
             // Bar charts using inline values
             $('.stackedbar').sparkline([ [1, 2, 2], [2, 4, 3], [4, 2, 4], [4, 5, 1], [4, 1, 2], [6, 6, 4], [2, 3, 2], [3, 2, 6], [2, 0, 2], [6, 2, 4], [7, 4, 2], [3, 4, 1], [2, 3, 2], [3, 2, 6], [2, 0, 2], [6, 2, 4], [7, 4, 2], [3, 4, 1], [3, 7, 4]], {
-                type: 'bar', barColor: '#e8962e', height: '200', barWidth: '18', barSpacing: 2, zeroAxis: true, negBarColor: '#f46e0f', zeroColor: '#673AB7', stackedBarColor: ['#673AB7', '#e8962e', '#f46e0f'],
+                type: 'bar', barColor: '#29b6f6', height: '200', barWidth: '18', barSpacing: 2, zeroAxis: true, negBarColor: '#f46e0f', zeroColor: '#673AB7', stackedBarColor: ['#673AB7', '#29b6f6', '#f46e0f'],
             }
             );
             // sidebar bottom graphs
             $('.sidebar_orders').sparkline(sidebargraph1, {
-                type: 'bar', barColor: '#e8962e', height: '20', barWidth: '4', barSpacing: 1,
+                type: 'bar', barColor: '#29b6f6', height: '20', barWidth: '4', barSpacing: 1,
             }
             );
             $('.sidebar_visitors').sparkline(sidebargraph2, {
@@ -55,7 +55,7 @@ jQuery(function($) {
             );
             // Bar + line composite charts
             $('#compositebar').sparkline([4, 6, 7, 7, 4, 3, 2, 4, 6, 7, 7, 4, 3, 2, 3, 1, 4, 6, 5, 9], {
-                type: 'bar', barColor: '#e8962e', height: '200', barWidth: '25', barSpacing: 5,
+                type: 'bar', barColor: '#29b6f6', height: '200', barWidth: '25', barSpacing: 5,
             }
             );
             $('#compositebar').sparkline([4, 1, 5, 7, 9, 9, 8, 4, 6, 7, 7, 4, 3, 2, 8, 4, 2, 5, 6, 7], {
@@ -86,7 +86,7 @@ jQuery(function($) {
 
             // Composite line charts, the second using values supplied via javascript
             $('#compositeline').sparkline([6,5,4,6,6,9,1,3,4,6,4,2,6,2,3,7,1,2,2,8,10], {
-                fillColor: false, changeRangeMin: 0, chartRangeMax: 10, type: 'line', width: '100%', height: '200', lineWidth: 2, lineColor: '#e8962e', highlightSpotColor: '#f46e0f', highlightLineColor: '#673AB7', spotRadius: 4,
+                fillColor: false, changeRangeMin: 0, chartRangeMax: 10, type: 'line', width: '100%', height: '200', lineWidth: 2, lineColor: '#29b6f6', highlightSpotColor: '#f46e0f', highlightLineColor: '#673AB7', spotRadius: 4,
             }
             );
             $('#compositeline').sparkline([4, 1, 5, 4, 6, 7, 3, 5, 6, 6, 4, 2, 6, 4, 3, 2, 2, 5, 6, 3], {

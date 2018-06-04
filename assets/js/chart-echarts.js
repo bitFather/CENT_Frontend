@@ -68,7 +68,7 @@ jQuery(function($) {
                 xAxis: [ {
                     type: 'category', boundaryGap: false, data: ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE'], axisLine: {
                         show: true, onZero: true, lineStyle: {
-                            color: '#e77512', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
+                            color: '#29b6f6', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
                         }
                         ,
                     }
@@ -109,8 +109,8 @@ jQuery(function($) {
                 series: [ {
                     name: 'Total Visits', type: 'line', smooth: true, symbol:'none', symbolSize:2, showAllSymbol: true, itemStyle: {
                         normal: {
-                            color:'#e77512', borderWidth:4, borderColor:'#e77512', areaStyle: {
-                                color: '#e77512', type: 'default'
+                            color:'#29b6f6', borderWidth:4, borderColor:'#29b6f6', areaStyle: {
+                                color: '#29b6f6', type: 'default'
                             }
                         }
                     }
@@ -179,7 +179,7 @@ jQuery(function($) {
                 xAxis: [ {
                     type: 'category', boundaryGap: false, data: ['2018-06-01', '2018-05-01', '2018-04-01', '2018-03-01', '2018-02-01'], axisLine: {
                         show: true, onZero: true, lineStyle: {
-                            color: '#e77512', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
+                            color: '#29b6f6', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
                         }
                         ,
                     }
@@ -220,8 +220,8 @@ jQuery(function($) {
                 series: [ {
                     name: 'Registered Users', type: 'line', smooth: true, symbol:'none', symbolSize:2, showAllSymbol: true, barWidth:15, barGap:'10%', itemStyle: {
                         normal: {
-                            color:'#e77512', borderWidth:2, borderColor:'#e77512', areaStyle: {
-                                color: '#e77512', type: 'default'
+                            color:'#29b6f6', borderWidth:2, borderColor:'#29b6f6', areaStyle: {
+                                color: '#29b6f6', type: 'default'
                             }
                         }
                     }
@@ -309,7 +309,7 @@ jQuery(function($) {
                 xAxis: [ {
                     type: 'category', boundaryGap: false, data: [ '0h-2h', '2h-4h', '4h-6h', '6h-8h', '8h-10h', '10h-12h', '12h-14h', '14h-16h', '16h-18h', '18h-20h', '20h-22h', '22h-24h'], axisLine: {
                         show: true, onZero: true, lineStyle: {
-                            color: '#e77512', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
+                            color: '#29b6f6', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
                         }
                         ,
                     }
@@ -350,7 +350,7 @@ jQuery(function($) {
                 series: [ {
                     name: 'Page Views', type: 'line', smooth: true, symbol:'none', symbolSize:2, showAllSymbol: true, barWidth:10, itemStyle: {
                         normal: {
-                            color:'#e77512', borderWidth:2, borderColor:'#e77512', areaStyle: {
+                            color:'#29b6f6', borderWidth:2, borderColor:'#29b6f6', areaStyle: {
                                 color: 'rgba(63,81,181,0)', type: 'default'
                             }
                         }
@@ -368,7 +368,7 @@ jQuery(function($) {
             // Initialize after dom ready
             var myChart=echarts.init(document.getElementById('scatter_chart'));
             var option= {
-                color: ['#e77512', '#e8952e'], title: {
+                color: ['#29b6f6', '#e8952e'], title: {
                     // text: '',
                     // subtext: ''
                 }
@@ -416,7 +416,7 @@ jQuery(function($) {
                 , xAxis: [ {
                     type: 'value', axisLine: {
                         show: true, onZero: true, lineStyle: {
-                            color: '#e77512', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
+                            color: '#29b6f6', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
                         }
                         ,
                     }
@@ -436,7 +436,7 @@ jQuery(function($) {
                 ], yAxis: [ {
                     show:false, type: 'value', axisLine: {
                         show: true, onZero: true, lineStyle: {
-                            color: '#e77512', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
+                            color: '#29b6f6', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
                         }
                         ,
                     }
@@ -550,7 +550,7 @@ jQuery(function($) {
                 xAxis: [ {
                     type: 'category', boundaryGap: false, data: [ '03 march', '04 march', '05 march', '06 march', '07 march', '08 march', '09 march', '10 march', '11 march', '12 march', '13 march', '14 march'], axisLine: {
                         show: true, onZero: true, lineStyle: {
-                            color: '#e77512', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
+                            color: '#29b6f6', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
                         }
                         ,
                     }
@@ -591,7 +591,7 @@ jQuery(function($) {
                 series: [ {
                     name: 'ICO Sales', type: 'bar', smooth: true, symbol:'none', symbolSize:2, showAllSymbol: true, barWidth:30, itemStyle: {
                         normal: {
-                            color:'#e77512', borderWidth:2, borderColor:'#e77512', areaStyle: {
+                            color:'#29b6f6', borderWidth:2, borderColor:'#29b6f6', areaStyle: {
                                 color: 'rgba(63,81,181,0)', type: 'default'
                             }
                         }
@@ -661,7 +661,7 @@ jQuery(function($) {
                 xAxis: [ {
                     type: 'category', boundaryGap: false, data: ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE'], axisLine: {
                         show: true, onZero: true, lineStyle: {
-                            color: '#e77512', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
+                            color: '#29b6f6', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
                         }
                         ,
                     }
@@ -702,8 +702,8 @@ jQuery(function($) {
                 series: [ {
                     name: 'Total Visits', type: 'bar', smooth: true, symbol:'none', symbolSize:2, showAllSymbol: true, itemStyle: {
                         normal: {
-                            color:'#e77512', borderWidth:4, borderColor:'#e77512', areaStyle: {
-                                color: '#e77512', type: 'default'
+                            color:'#29b6f6', borderWidth:4, borderColor:'#29b6f6', areaStyle: {
+                                color: '#29b6f6', type: 'default'
                             }
                         }
                     }
@@ -772,7 +772,7 @@ jQuery(function($) {
                 xAxis: [ {
                     type: 'category', boundaryGap: false, data: ['2018-06-01', '2018-05-01', '2018-04-01', '2018-03-01', '2018-02-01', '2018-01-01', '2015-12-01', '2015-11-01', '2015-10-01', '2015-09-01'], axisLine: {
                         show: true, onZero: true, lineStyle: {
-                            color: '#e77512', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
+                            color: '#29b6f6', type: 'solid', width: '2', shadowColor: 'rgba(0,0,0,0)', shadowBlur: 5, shadowOffsetX: 3, shadowOffsetY: 3,
                         }
                         ,
                     }
@@ -813,8 +813,8 @@ jQuery(function($) {
                 series: [ {
                     name: 'Registered Users', type: 'bar', smooth: true, symbol:'none', symbolSize:2, showAllSymbol: true, barWidth:25, barGap:'10%', itemStyle: {
                         normal: {
-                            color:'#e77512', borderWidth:2, borderColor:'#e77512', areaStyle: {
-                                color: '#e77512', type: 'default'
+                            color:'#29b6f6', borderWidth:2, borderColor:'#29b6f6', areaStyle: {
+                                color: '#29b6f6', type: 'default'
                             }
                         }
                     }

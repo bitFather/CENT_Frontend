@@ -550,7 +550,7 @@ jQuery(function($) {
                 $(function() {
                     $('#world-map-markers').vectorMap({
                         map: 'world_mill_en',
-                        scaleColors: ['#e77512', '#e77512'],
+                        scaleColors: ['#29b6f6', '#29b6f6'],
                         normalizeFunction: 'polynomial',
                         hoverOpacity: 0.7,
                         hoverColor: false,
@@ -713,7 +713,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'europe_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -741,7 +741,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'in_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -769,7 +769,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'us_aea_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -797,7 +797,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'pt_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -825,7 +825,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'cn_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -853,7 +853,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'nz_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -881,7 +881,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'no_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -909,7 +909,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'es_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -937,7 +937,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'au_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -965,7 +965,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'fr_regions_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -993,7 +993,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'th_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1021,7 +1021,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'co_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1049,7 +1049,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'be_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1077,7 +1077,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'ar_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1105,7 +1105,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 've_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1133,7 +1133,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'it_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1161,7 +1161,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'dk_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1189,7 +1189,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'at_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1217,7 +1217,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'ca_lcc_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1245,7 +1245,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'nl_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1273,7 +1273,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'se_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1301,7 +1301,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'pl_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1329,7 +1329,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'de_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1357,7 +1357,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'fr_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1385,7 +1385,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'za_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1413,7 +1413,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'ch_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1441,7 +1441,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'us-ny-newyork_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -1469,7 +1469,7 @@ jQuery(function($) {
                 mapid.vectorMap({
                     map: 'us-il-chicago_mill_en',
                     regionsSelectable: true,
-                    backgroundColor: '#e77512',
+                    backgroundColor: '#29b6f6',
                     regionStyle: {
                         initial: {
                             fill: 'white',
@@ -2864,7 +2864,7 @@ jQuery(function($) {
             $(function() {
                 $('#db-world-map-markers').vectorMap({
                     map: 'world_mill_en',
-                    scaleColors: ['#e77512', '#e77512'],
+                    scaleColors: ['#29b6f6', '#29b6f6'],
                     normalizeFunction: 'polynomial',
                     hoverOpacity: 0.7,
                     hoverColor: false,
@@ -2909,12 +2909,12 @@ jQuery(function($) {
                             'stroke-opacity': 1
                         },
                         hover: {
-                            fill: '#e77512',
+                            fill: '#29b6f6',
                             'fill-opacity': 1,
                             cursor: 'pointer'
                         },
                         selected: {
-                            fill: '#e77512'
+                            fill: '#29b6f6'
                         },
                         selectedHover: {}
                     },
@@ -3042,7 +3042,7 @@ jQuery(function($) {
                 size: 'large'
             }
             var count = 0;
-            var colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#e77512', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4caf50', '#8bc34a', '#cddc39', '#ffeb3b', '#ffc107', '#ff9800', '#ff5722', '#795548', '#9e9e9e', '#607d8b', '#000000'];
+            var colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#29b6f6', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4caf50', '#8bc34a', '#cddc39', '#ffeb3b', '#ffc107', '#ff9800', '#ff5722', '#795548', '#9e9e9e', '#607d8b', '#000000'];
             elems.forEach(function(html) {
                 count = count + 1;
                 var size = 'default';

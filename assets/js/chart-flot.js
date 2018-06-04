@@ -80,7 +80,7 @@ jQuery(function($) {
                 xaxis: {
                     show: false
                 },
-                colors: ["#e8962e"],
+                colors: ["#29b6f6"],
                 grid: {
                     tickColor: "#f5f5f5",
                     borderWidth: 1,
@@ -325,7 +325,7 @@ jQuery(function($) {
                         series: {
                             shadowSize: 0 // Drawing is faster without shadows
                         },
-                        colors: ["#f46e0f", "#e8962e", "#E91E63", "#FFC107", "#797979"],
+                        colors: ["#f46e0f", "#29b6f6", "#E91E63", "#FFC107", "#797979"],
                         grid: {
                             tickColor: "#f5f5f5",
                             borderWidth: 1,
@@ -377,7 +377,7 @@ jQuery(function($) {
                     min: -1.2,
                     max: 1.2
                 },
-                colors: ["#f46e0f", "#e8962e", "#E91E63", "#FFC107", "#797979"],
+                colors: ["#f46e0f", "#29b6f6", "#E91E63", "#FFC107", "#797979"],
             });
 
             var legends = $("#flot-track .legendLabel");
@@ -583,7 +583,7 @@ jQuery(function($) {
                 selection: {
                     mode: "x"
                 },
-                colors: ["#f46e0f", "#e8962e", "#E91E63", "#FFC107", "#797979"],
+                colors: ["#f46e0f", "#29b6f6", "#E91E63", "#FFC107", "#797979"],
                 grid: {
                     markings: weekendAreas,
                     tickColor: "#f5f5f5",
@@ -615,7 +615,7 @@ jQuery(function($) {
                 selection: {
                     mode: "x"
                 },
-                colors: ["#f46e0f", "#e8962e", "#E91E63", "#FFC107", "#797979"],
+                colors: ["#f46e0f", "#29b6f6", "#E91E63", "#FFC107", "#797979"],
                 grid: {
                     tickColor: "#f5f5f5",
                     borderWidth: 1,
@@ -721,7 +721,7 @@ jQuery(function($) {
                     borderWidth: 1,
                     borderColor: "#eeeeee"
                 },
-                colors: ["#e8962e", "#f46e0f", "#E91E63", "#FFC107", "#797979"],
+                colors: ["#29b6f6", "#f46e0f", "#E91E63", "#FFC107", "#797979"],
                 tooltip: true,
                 tooltipOpts: {
                     defaultTheme: true

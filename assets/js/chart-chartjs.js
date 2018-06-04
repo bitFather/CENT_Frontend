@@ -125,7 +125,7 @@ jQuery(function($) {
 
             var doughnutData = [{
                     value: 300,
-                    color: "#E91E63",
+                    color: "#E91E63zz",
                     highlight: "rgba(250,133,100,0.8)",
                     label: "Accent"
                 }, {

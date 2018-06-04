@@ -14,7 +14,7 @@
 .services-block-four .inner-box .icon-box:before
 
 {
-	background: #ff693a !important;
+	background: #29b6f6 !important;
 }
 
 
@@ -26,7 +26,7 @@
 .testimonial .testimonial-item:hover .content,
 .main-footer .newsletter-widget input:focus,
 .main-footer .newsletter-widget select:focus{
-	border-color: #ff693a !important;
+	border-color: #29b6f6 !important;
 }
 
 
@@ -49,7 +49,7 @@
 
 .single-service-item,
 .service-left-bg {
-	border-left-color: #ff693a !important;
+	border-left-color: #29b6f6 !important;
 }
 
 

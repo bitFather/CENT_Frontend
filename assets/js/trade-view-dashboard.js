@@ -18,7 +18,7 @@ jQuery(function($) {
 
             $('.db_dynamicbar').sparkline([6.2, 8.4, 8.8, 8, 9.2, 8.8, 8, 7.5, 5.2, 9.9, 9, 9, 8.4, 9, 8.8, 8, 9.5, 9.2, 9.9, 9, 9,8, 7.1, 9, 9, 9.5, 8, 9.5, 9.8], {
                 type: 'bar',
-                barColor: '#e77512',
+                barColor: '#29b6f6',
                 height: '80',
                 barWidth: '10',
                 barSpacing: 1,
@@ -29,7 +29,7 @@ jQuery(function($) {
                 width: '100%',
                 height: '80',
                 lineWidth: 2,
-                lineColor: '#e77512',
+                lineColor: '#29b6f6',
                 fillColor: 'rgba(255,255,255,0.2)',
                 highlightSpotColor: '#3F51B5',
                 highlightLineColor: '#3F51B5',
@@ -144,7 +144,7 @@ jQuery(function($) {
             xkey: 'x',
             ykeys: ['y', 'z'],
             labels: ['Y', 'Z'],
-            lineColors: ['#ffb426', '#e77512'],
+            lineColors: ['#ffb426', '#29b6f6'],
             pointFillColors: ['#E91E63']
         }).on('click', function(i, row) {
             console.log(i, row);
